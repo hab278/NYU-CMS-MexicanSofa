@@ -2,7 +2,7 @@ Setup Mexican Sofa CMS
 ======================
 
 You need to install Ruby 2.1.3 and Rails 4.1.6
-You can follow the steps [here](https://github.com/shaleenjain1990/NYU-CMS-MexicanSofa/Setup%20Ruby%20on%20Rails)
+You can follow the steps [here](https://github.com/shaleenjain1990/NYU-CMS-MexicanSofa/blob/master/Setup%20Ruby%20on%20Rails.md)
 
 Installing Mexican Comfy CMS
 ----------------------------
