@@ -39,3 +39,4 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'comfortable_mexican_sofa', '~> 1.12.0'
+#gem 'nyulibraries-assets', :git => "git://github.com/NYULibraries/nyulibraries-assets.git"
