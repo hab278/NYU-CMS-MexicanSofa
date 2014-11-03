@@ -6,9 +6,9 @@ gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', github: 'rails/sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+# gem 'uglifier', '>=  1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -38,5 +38,11 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'comfortable_mexican_sofa', '~> 1.12.0'
-#gem 'nyulibraries-assets', :git => "git://github.com/NYULibraries/nyulibraries-assets.git"
+gem 'comfortable_mexican_sofa', github: 'comfy/comfortable-mexican-sofa'
+#gem 'nyulibraries-assets', github: 'NYULibraries/nyulibraries-assets'
+#gem 'nyulibraries-assets', github: 'NYULibraries/nyulibraries-assets', branch: 'development-login'
+group :assets do
+  #gem 'sass-rails', "~> 3.2.5"
+  gem 'compass', "~> 1.0.1"
+  gem 'nyulibraries-assets', github: 'NYULibraries/nyulibraries-assets'
+end

@@ -28,3 +28,22 @@ Default username and password is 'username' and 'password'. You probably want to
 Before creating pages and populating them with content we need to create a Site. Site defines a hostname, content path and its language.
 
 After creating a Site, you need to make a Layout. Layout is the template of your pages; it defines some reusable content (like header and footer, for example) and places where the content goes.
+
+Adding NYULibraries-assets gem
+------------------------------
+
+Add the following lines in your Gemfile
+```
+group :assets do
+  gem 'compass', "~> 1.0.1"
+  gem 'nyulibraries-assets', github: 'NYULibraries/nyulibraries-assets'
+end
+```
+If you come across sass-rails dependency issue when you do <code>bundle install</code> then change the Gemfile.
+```
+gem 'sass-rails', github: 'rails/sass-rails'
+```
+If you come across assets precompile error when opening http://localhost:3000/admin/ then in config/environments/development.rb make the following changes-:
+```
+config.assets.raise_runtime_errors = false
+```
