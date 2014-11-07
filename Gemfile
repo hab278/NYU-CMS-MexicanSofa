@@ -37,12 +37,12 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'redcarpet'
 gem 'comfortable_mexican_sofa', github: 'comfy/comfortable-mexican-sofa'
 #gem 'nyulibraries-assets', github: 'NYULibraries/nyulibraries-assets'
 #gem 'nyulibraries-assets', github: 'NYULibraries/nyulibraries-assets', branch: 'development-login'
 group :assets do
-  #gem 'sass-rails', "~> 3.2.5"
   gem 'compass', "~> 1.0.1"
   gem 'nyulibraries-assets', github: 'NYULibraries/nyulibraries-assets'
 end
+gem 'comfy-admin-constructor'
